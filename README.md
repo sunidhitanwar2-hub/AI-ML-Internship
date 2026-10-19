@@ -41,3 +41,24 @@ Complete internship assignments and projects
 Repository Purpose
 
 This repository documents my AI/ML internship learning journey, environment setup, assignments, and practical projects.
+
+
+## Day 2: Python Fundamentals
+
+### Learning Objectives
+- Understand Python syntax and variables.
+- Learn Python data types.
+- Practice if-else statements and loops.
+- Understand and use functions.
+
+### Projects Completed
+1. `python_practice.py` - Practice with variables, data types, conditions, loops, and functions.
+2. `student_grade_calculator.py` - Calculates total marks, percentage, and grade.
+3. `simple_calculator.py` - Performs arithmetic operations using functions.
+
+### Concepts Practiced
+- Variables and data types
+- Conditional statements
+- For and while loops
+- Functions and return values
+- User input and error handling
