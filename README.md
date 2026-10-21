@@ -62,3 +62,21 @@ This repository documents my AI/ML internship learning journey, environment setu
 - For and while loops
 - Functions and return values
 - User input and error handling
+
+## Day 3: Python Data Structures and File Handling
+
+### Learning Objectives
+- Learned Lists, Tuples, Dictionaries, and Sets.
+- Practiced reading and writing text files.
+- Learned how to store and retrieve student records.
+
+### Projects Completed
+1. `student_record_management.py` — Adds, displays, and searches student records.
+2. `students.txt` — Stores student records for later retrieval.
+
+### Concepts Practiced
+- Python data structures
+- File handling
+- Reading and writing text files
+- Functions and menu-driven programs
+- Organizing project files
