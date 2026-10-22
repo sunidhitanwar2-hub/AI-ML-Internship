@@ -80,3 +80,39 @@ This repository documents my AI/ML internship learning journey, environment setu
 - Reading and writing text files
 - Functions and menu-driven programs
 - Organizing project files
+
+### Day 4: Introduction to NumPy
+
+### Learning Objectives
+
+Learned why NumPy is important for numerical computing and AI/ML.
+
+Created one-dimensional (1D) and two-dimensional (2D) arrays.
+
+Practiced array indexing and slicing.
+
+Performed mathematical operations using NumPy.
+
+Compared Python lists with NumPy arrays.
+
+### Projects Completed
+
+numpy_practice.py - Practiced NumPy arrays, indexing, slicing, and mathematical operations.
+
+numpy_practice.ipynb - Created a Jupyter Notebook with separate code cells for NumPy practice examples.
+
+student_marks_analysis.py - Analyzed student marks using NumPy, calculated subject averages and class average, identified the highest and lowest marks, and found the top-performing student.
+
+### Concepts Practiced
+
+NumPy installation and import
+
+1D and 2D arrays
+
+Array indexing and slicing
+
+Sum, mean, maximum, and minimum
+
+Python lists vs NumPy arrays
+
+Student marks analysis
