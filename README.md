@@ -81,7 +81,7 @@ This repository documents my AI/ML internship learning journey, environment setu
 - Functions and menu-driven programs
 - Organizing project files
 
-### Day 4: Introduction to NumPy
+## Day 4: Introduction to NumPy
 
 ### Learning Objectives
 
@@ -115,4 +115,55 @@ Sum, mean, maximum, and minimum
 
 Python lists vs NumPy arrays
 
-Student marks analysis
+Student marks analysis 
+## Day 5: Pandas Data Analysis
+
+### Project: Online Shopping Sales Analysis
+
+#### Learning Objectives
+- Learned how to load and analyze CSV datasets using Pandas.
+- Explored datasets using DataFrames.
+- Checked the number of rows and columns.
+- Identified missing values in the dataset.
+- Filtered data using conditions.
+- Calculated summary statistics and analyzed sales revenue.
+- Created a bar chart to visualize revenue by product category.
+
+#### Tools and Technologies
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- CSV Dataset
+
+#### Project Files
+- `pandas_practice.ipynb` – Jupyter Notebook containing the sales analysis.
+- `online_sales.csv` – Dataset containing online shopping product and sales information.
+
+#### Analysis Performed
+- Loaded and displayed the online sales dataset.
+- Checked dataset dimensions and missing values.
+- Filtered products using specific conditions.
+- Calculated total and average revenue.
+- Identified products with the highest revenue.
+- Compared revenue across product categories.
+- Visualized category-wise revenue using a bar chart.
+
+#### Key Findings
+- Electronics generated the highest total revenue among the categories in the current dataset.
+- Stationery generated the lowest total revenue among the categories in the current dataset.
+- Product revenue was analyzed to identify the top-performing products.
+
+#### Concepts Practiced
+- Pandas DataFrames
+- Reading CSV files
+- Data filtering and grouping
+- Data aggregation using `sum()` and `mean()`
+- Missing-value analysis using `isnull()`
+- Data visualization using Matplotlib
+
+#### Deliverables
+- Completed Pandas practice notebook.
+- Online shopping sales dataset.
+- Basic sales analysis and visualization.
+- Updated GitHub repository.

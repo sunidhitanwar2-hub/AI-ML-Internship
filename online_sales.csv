@@ -1,0 +1,26 @@
+OrderID,Product,Category,Price,Quantity,PaymentMethod,City
+1001,Wireless Mouse,Electronics,599,2,UPI,Pune
+1002,Notebook,Stationery,80,5,Cash,Mumbai
+1003,Headphones,Electronics,1499,1,Card,Delhi
+1004,Water Bottle,Home,299,3,UPI,Pune
+1005,Keyboard,Electronics,999,2,Card,Bengaluru
+1006,Pen Set,Stationery,120,4,Cash,Mumbai
+1007,Desk Lamp,Home,799,1,UPI,Delhi
+1008,USB Cable,Electronics,199,5,UPI,Pune
+1009,Backpack,Accessories,1299,1,Card,Chennai
+1010,Diary,Stationery,150,3,Cash,Bengaluru
+1011,Smart Watch,Electronics,2499,2,Card,Mumbai
+1012,Coffee Mug,Home,249,4,UPI,Delhi
+1013,Sunglasses,Accessories,899,2,Cash,Pune
+1014,Calculator,Stationery,450,2,Card,Chennai
+1015,Bluetooth Speaker,Electronics,1799,1,UPI,Bengaluru
+1016,Wall Clock,Home,650,2,Cash,Mumbai
+1017,Phone Stand,Accessories,349,3,UPI,Delhi
+1018,Sticky Notes,Stationery,60,6,Cash,Pune
+1019,Power Bank,Electronics,1299,2,Card,Chennai
+1020,Laptop Bag,Accessories,1099,1,UPI,Bengaluru
+1021,Table Mat,Home,199,4,Cash,Pune
+1022,Webcam,Electronics,1899,1,Card,Delhi
+1023,Marker Set,Stationery,180,3,UPI,Mumbai
+1024,Travel Pouch,Accessories,499,2,Cash,Chennai
+1025,Floor Mat,Home,899,1,Card,Bengaluru
