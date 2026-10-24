@@ -167,3 +167,45 @@ Student marks analysis
 - Online shopping sales dataset.
 - Basic sales analysis and visualization.
 - Updated GitHub repository.
+
+## Day 6: Data Visualization Using Python
+
+### Project: Online Shopping Sales Visualization
+
+**Objective:** Analyze online shopping sales data and visualize revenue patterns using Python data visualization libraries.
+
+### Tools and Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+### Dataset
+- File: `online_sales.csv`
+- 25 records and 7 original columns
+- Product details, category, price, quantity, payment method, and city
+
+### Tasks Completed
+- Loaded and explored the sales dataset using Pandas.
+- Calculated order revenue using price and quantity.
+- Created a bar chart to compare total revenue by product category.
+- Created a line chart to examine revenue variation across orders.
+- Created a histogram to understand the distribution of order revenue.
+- Created a pie chart to visualize each category's share of total revenue.
+- Generated five observations summarizing the sales data.
+
+### Key Learnings
+- Understanding the importance of data visualization.
+- Creating charts using Matplotlib and Seaborn.
+- Grouping and analyzing data with Pandas.
+- Identifying revenue patterns and comparing product categories.
+- Communicating data insights through visualizations.
+
+### Deliverables
+- `data_visualization.ipynb` — Visualization notebook
+- `online_sales.csv` — Dataset
+- Four visualizations and an observation summary
+
+### Status
+Completed — notebook and analysis prepared for GitHub submission.
