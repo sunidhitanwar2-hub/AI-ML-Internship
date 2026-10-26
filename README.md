@@ -209,3 +209,42 @@ Student marks analysis
 
 ### Status
 Completed — notebook and analysis prepared for GitHub submission.
+## Day 7: Week 1 Mini Project — Netflix Data Analysis
+
+### Project Overview
+Analyzed a Netflix Movies and TV Shows dataset using Python to explore content types, yearly additions, ratings, genres, and country representation.
+
+### Tools Used
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
+- Git and GitHub
+
+### Dataset
+Netflix Movies and TV Shows dataset by Shivam Bansal.
+
+Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+### Data Cleaning
+- Checked missing values and duplicate rows.
+- Removed duplicate rows where present.
+- Trimmed extra spaces in text columns.
+- Replaced missing director, cast, and country values with `Unknown`.
+- Converted `date_added` into a datetime format.
+
+### Visualizations
+1. Distribution of Movies and TV Shows.
+2. Netflix titles added by year.
+3. Top 10 content ratings.
+4. Top 10 genres.
+
+### Key Findings
+The analysis found that movies outnumber TV shows in this dataset. TV-MA was the most frequent rating, and 2019 had the highest number of recorded additions. See the notebook for the complete genre, release-year, and country results.
+
+### Project Files
+- `netflix_analysis.ipynb` — analysis, charts, and insights.
+- `netflix_titles.csv` — dataset used in the analysis.
+
+### Conclusion
+This project applied data cleaning, exploratory data analysis, visualization, and interpretation to a real-world dataset. Findings depend on the dataset snapshot used.
