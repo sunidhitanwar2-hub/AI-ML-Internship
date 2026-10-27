@@ -249,7 +249,7 @@ The analysis found that movies outnumber TV shows in this dataset. TV-MA was the
 ### Conclusion
 This project applied data cleaning, exploratory data analysis, visualization, and interpretation to a real-world dataset. Findings depend on the dataset snapshot used.
 
-Day 8: Data Cleaning — Laptop Price Dataset
+### Day 8: Data Cleaning — Laptop Price Dataset
 
 Project Overview
 Cleaned a raw, uncleaned Laptop Price dataset using Python to find and fix missing values, duplicate records, inconsistent column names, wrong data types and impossible values, and saved a clean version ready for analysis.
