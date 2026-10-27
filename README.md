@@ -249,3 +249,53 @@ The analysis found that movies outnumber TV shows in this dataset. TV-MA was the
 ### Conclusion
 This project applied data cleaning, exploratory data analysis, visualization, and interpretation to a real-world dataset. Findings depend on the dataset snapshot used.
 
+Day 8: Data Cleaning — Laptop Price Dataset
+
+Project Overview
+Cleaned a raw, uncleaned Laptop Price dataset using Python to find and fix missing values, duplicate records, inconsistent column names, wrong data types and impossible values, and saved a clean version ready for analysis.
+
+Tools Used
+
+Python
+Pandas and NumPy
+Jupyter Notebook
+Git and GitHub
+
+Dataset
+Laptop Price dataset (uncleaned version) from Kaggle.
+Source: (add Kaggle link)
+The raw data has 1,273 laptops and 12 columns: company, type, screen size, screen resolution, CPU, RAM, storage, GPU, operating system, weight and price (INR).
+
+Data Cleaning
+
+Dropped the unnamed row-number column 0.
+Identified missing values: isnull() showed none, but missing values were stored as ? (in Inches, Memory and Weight). Replaced ? with NaN.
+Found and removed 29 duplicate rows.
+Renamed columns to lowercase snake_case with units in the name (e.g. Ram → ram_gb, Weight → weight_kg, OpSys → os).
+Converted data types: removed “GB”/”kg” units and converted RAM to integer and weight to float; converted screen size to float; rounded price to whole rupees; converted brand, type and os to category.
+Merged inconsistent labels: Mac OS X and macOS → macOS.
+Found impossible values (a weight of 0.0002 kg, notebooks weighing up to 11.1 kg, screen sizes of 24–35.6 inches) and treated them as missing.
+Handled missing values: screen size and weight were filled with the median of the same laptop type; the 1 row with missing storage was dropped.
+Saved the cleaned dataset.
+
+Results
+
+	Before	After
+Rows	1,273	1,243
+Columns	12	11
+Missing values	3 (hidden as ?)	0
+Duplicate rows	29	0
+Numeric columns stored as text	3	0
+
+Key Findings
+Missing values aren’t always blank. In this dataset they were written as ?, so isnull() missed them and they only showed up when converting columns to numbers. The duplicates only appeared after the row-number column was dropped. Checking describe() after the type conversion revealed data-entry errors in weight and screen size that would have distorted any analysis.
+
+Project Files
+
+data_cleaning.ipynb: step-by-step cleaning with outputs and notes.
+data/laptop_data_raw.csv: original uncleaned dataset.
+data/laptop_data_cleaned.csv: cleaned dataset.
+
+Conclusion
+This project applied a full data cleaning workflow to a real-world dataset: loading, identifying missing and hidden values, removing duplicates, renaming columns, fixing data types, handling outliers and missing values, and saving the result. The cleaned dataset is ready for analysis and visualization.
+
