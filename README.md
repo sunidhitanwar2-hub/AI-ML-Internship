@@ -299,3 +299,61 @@ data/laptop_data_cleaned.csv: cleaned dataset.
 ### Conclusion
 This project applied a full data cleaning workflow to a real-world dataset: loading, identifying missing and hidden values, removing duplicates, renaming columns, fixing data types, handling outliers and missing values, and saving the result. The cleaned dataset is ready for analysis and visualization.
 
+### Day 9: Exploratory Data Analysis — Laptop Price Dataset
+
+### Project Overview
+Performed exploratory data analysis on the cleaned Laptop Price dataset from Day 8 to understand what drives laptop prices, how the market is segmented, and how brands are positioned, and wrote 5 business insights from the results.
+
+### Tools Used
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
+- Git and GitHub
+
+### Dataset
+Cleaned Laptop Price dataset from Day 8 (`data/laptop_data_cleaned.csv`): 1,243 laptops, 11 columns, no missing values.
+Original source: Laptop Price dataset (uncleaned version), Kaggle. <!-- add the Kaggle dataset link here -->
+
+### Analysis
+- **Descriptive statistics:** mean, median, mode, standard deviation, range and skewness of price; summary of all numeric and categorical columns; counts by brand, type, OS and RAM.
+- **Feature extraction:** pulled CPU series, GPU brand, SSD, touchscreen, IPS panel and resolution width out of long text columns.
+- **Trends and patterns:** correlation with price; median price by type, RAM, SSD, CPU series, GPU brand, touchscreen and brand.
+
+### Key Statistics
+| Metric | Value |
+|---|---|
+| Mean price | ₹60,604 |
+| Median price | ₹52,694 |
+| Price range | ₹9,271 – ₹3,24,955 |
+| Skewness | 1.52 (right skewed) |
+| Most common RAM | 8 GB (48%) |
+| Laptops with SSD | 66% |
+| Most common OS | Windows 10 (82%) |
+
+### Visualizations
+1. Distribution of laptop prices
+   ![Price distribution](charts/1_price_distribution.png)
+2. Median price by laptop type
+   ![Price by type](charts/2_price_by_type.png)
+3. Laptop price by RAM size
+   ![Price by RAM](charts/3_price_by_ram.png)
+4. SSD vs no SSD, and price by CPU series
+   ![SSD and CPU](charts/4_ssd_and_cpu.png)
+5. Brands: number of laptops vs median price
+   ![Brands](charts/5_brands.png)
+
+### Business Insights
+1. **RAM is the biggest driver of price.** It has the highest correlation with price (0.68). Median price rises from ₹26.6k (4 GB) to ₹59.5k (8 GB) to ~₹1 lakh (16 GB). 8 GB is the most common configuration and the mid-range sweet spot, so RAM upgrades are an easy way to upsell.
+2. **SSD is expected above the budget segment.** 66% of laptops have an SSD, and their median price (₹67.5k) is more than double that of laptops without one (₹30k).
+3. **The market has a large budget segment and a premium segment.** Notebooks are 55% of laptops with a ~₹37k median, while Gaming, Ultrabook and Workstation laptops have medians of ₹79k–₹1.1 lakh. Notebooks drive volume; premium types drive revenue per sale.
+4. **Brands are positioned at clear price levels.** Lenovo, Dell and HP hold ~66% of laptops in the mid range (₹48k–₹53k). Acer is the budget brand (₹30k), while MSI (₹85k) and Apple (₹71k) are premium.
+5. **Processor tier sets the price band.** Core i3 ≈ ₹26.6k, Core i5 ≈ ₹51k, Core i7 ≈ ₹79k. Core i5 and i7 make up ~73% of laptops, so most of the market is mid to high performance.
+
+### Project Files
+- `eda_laptop_prices.ipynb`: statistics, analysis, charts and insights.
+- `charts/`: the 5 visualizations as PNG images.
+- `data/laptop_data_cleaned.csv`: cleaned dataset from Day 8.
+
+### Conclusion
+Laptop prices in this dataset are driven mainly by specs (RAM, SSD, CPU tier and laptop type), while screen size and weight have very little effect. Brands target different price segments. Findings describe this dataset snapshot, not the full market.
