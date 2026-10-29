@@ -249,3 +249,44 @@ The analysis found that movies outnumber TV shows in this dataset. TV-MA was the
 ### Conclusion
 This project applied data cleaning, exploratory data analysis, visualization, and interpretation to a real-world dataset. Findings depend on the dataset snapshot used.
 
+## Day 10: Laptop Price Prediction using Machine Learning
+
+### Objective
+Build a Linear Regression model to predict laptop prices in Indian Rupees using laptop specifications.
+
+### Dataset
+- Source file: `Day 9/laptop_data_cleaned.csv`
+- Records: 1,243 laptops
+- Input features: 10
+- Target: `price_inr`
+
+### Workflow
+1. Loaded and inspected the cleaned dataset.
+2. Separated input features and target prices.
+3. Split the data into 80% training and 20% testing sets.
+4. Handled missing values, scaled numeric features, and encoded categorical features using a preprocessing pipeline.
+5. Trained a Linear Regression model.
+6. Generated predictions and evaluated model performance.
+7. Visualized actual vs. predicted prices and prediction errors.
+8. Saved the trained pipeline as `laptop_price_model.pkl`.
+
+### Model Evaluation
+
+| Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | ₹13,389.00 |
+| Root Mean Squared Error (RMSE) | ₹22,628.06 |
+| R² Score | 0.5905 |
+
+### Example Prediction
+For one sample laptop configuration, the model predicted a price of approximately ₹74,971.77. This is a model estimate, not a verified market price.
+
+### Files
+- `Day_10/laptop_price_prediction.ipynb` — machine learning notebook
+- `Day_10/laptop_price_model.pkl` — saved preprocessing and prediction pipeline
+
+### Conclusion
+The Linear Regression model provides a baseline for laptop price prediction. The evaluation results show that there is room to improve predictive performance, particularly for some higher-priced laptops.
+
+### Tools
+Python, Pandas, NumPy, Matplotlib, Scikit-learn, Joblib, Jupyter Notebook.
