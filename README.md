@@ -399,3 +399,39 @@ The Linear Regression model provides a baseline for laptop price prediction. Its
 
 ### Tools Used
 Python, Pandas, NumPy, Matplotlib, Scikit-learn, Joblib, Jupyter Notebook.
+
+
+## Day 11: Classification Models
+
+### Objective
+Learn the basics of classification and train two machine learning classification models.
+
+### Dataset
+- Iris Flower Dataset
+- Source: Scikit-learn built-in dataset
+- Total samples: 150
+- Features: 4
+- Classes: Setosa, Versicolor, Virginica
+
+### Models Implemented
+1. Logistic Regression
+2. Decision Tree Classifier
+
+### Tasks Completed
+- Loaded and explored the Iris dataset.
+- Separated input features and target labels.
+- Split the dataset into training and testing sets (80:20).
+- Trained a Logistic Regression model.
+- Trained a Decision Tree model.
+- Evaluated both models using accuracy.
+- Compared model performance using a table and bar chart.
+- Generated classification reports and confusion matrices.
+
+### Key Learnings
+- Understanding classification problems.
+- Training and testing classification models.
+- Making predictions on unseen data.
+- Evaluating model performance using accuracy, precision, recall, and F1-score.
+
+### Conclusion
+Successfully implemented and compared Logistic Regression and Decision Tree classification models using the Iris dataset.
