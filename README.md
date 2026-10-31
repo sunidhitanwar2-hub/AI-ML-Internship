@@ -435,3 +435,36 @@ Learn the basics of classification and train two machine learning classification
 
 ### Conclusion
 Successfully implemented and compared Logistic Regression and Decision Tree classification models using the Iris dataset.
+
+
+## Day 12 - Model Evaluation
+
+### Objective
+Evaluate machine learning classification models using different performance metrics.
+
+### Dataset
+Iris Flower Dataset from Scikit-learn.
+
+### Models Evaluated
+1. Logistic Regression
+2. Decision Tree Classifier
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+### Work Completed
+- Loaded and prepared the Iris dataset.
+- Split the dataset into training and testing sets.
+- Trained Logistic Regression and Decision Tree models.
+- Generated predictions using both models.
+- Calculated Accuracy, Precision, Recall, and F1 Score.
+- Generated Confusion Matrices.
+- Created Classification Reports.
+- Compared model performance.
+
+### Key Learning
+Learned how to evaluate classification models using different metrics and interpret their performance.
