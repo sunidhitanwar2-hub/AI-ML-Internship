@@ -468,3 +468,26 @@ Iris Flower Dataset from Scikit-learn.
 
 ### Key Learning
 Learned how to evaluate classification models using different metrics and interpret their performance.
+
+## Day 13 - Natural Language Processing (NLP)
+
+### Objective
+Learn basic NLP concepts and perform text preprocessing.
+
+### Dataset
+A small sample dataset containing five text sentences.
+
+### Tasks Completed
+- Lowercasing
+- Tokenization
+- Stopword Removal
+- TF-IDF Vectorization
+
+### Results
+- Processed 5 text sentences.
+- Identified 18 unique words.
+- Generated a TF-IDF matrix of shape (5, 18).
+- Converted text data into numerical features.
+
+### Key Learning
+Learned how to clean text data and convert human language into numerical representations using TF-IDF.
