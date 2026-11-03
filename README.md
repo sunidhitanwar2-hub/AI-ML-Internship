@@ -491,3 +491,37 @@ A small sample dataset containing five text sentences.
 
 ### Key Learning
 Learned how to clean text data and convert human language into numerical representations using TF-IDF.
+
+## Day 14 – Sentiment Analysis Using Machine Learning
+
+### Objective
+Build a machine learning model that classifies text reviews as Positive or Negative.
+
+### Technologies Used
+- Python
+- Pandas and NumPy
+- Scikit-learn
+- Matplotlib and Seaborn
+- NLP and TF-IDF
+- Logistic Regression
+
+### Tasks Completed
+1. Created a sample sentiment dataset.
+2. Cleaned and preprocessed text.
+3. Converted text into numerical features using TF-IDF.
+4. Split the dataset into training and testing sets.
+5. Trained a Logistic Regression model.
+6. Evaluated the model using Accuracy, Precision, Recall, F1 Score, and a Confusion Matrix.
+7. Tested predictions on new reviews.
+8. Saved the trained model and TF-IDF vectorizer.
+
+### Files Generated
+- `sentiment_model.pkl`
+- `tfidf_vectorizer.pkl`
+- `sentiment_dataset.csv`
+- `sentiment_analysis.ipynb`
+
+### Conclusion
+Successfully completed a beginner-level sentiment analysis project using NLP and Machine Learning. The model classifies reviews as Positive or Negative.
+
+**Note:** This project uses only 20 sample reviews for practice. A larger, more diverse dataset is needed for reliable real-world predictions.

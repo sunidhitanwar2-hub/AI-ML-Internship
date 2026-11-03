@@ -1,0 +1,21 @@
+text,sentiment,cleaned_text
+I love this product,Positive,i love this product
+This product is amazing,Positive,this product is amazing
+The service was excellent,Positive,the service was excellent
+I am very happy with this purchase,Positive,i am very happy with this purchase
+The quality is fantastic,Positive,the quality is fantastic
+I really enjoyed this experience,Positive,i really enjoyed this experience
+This is a wonderful product,Positive,this is a wonderful product
+The delivery was very fast,Positive,the delivery was very fast
+I am satisfied with the service,Positive,i am satisfied with the service
+The movie was absolutely great,Positive,the movie was absolutely great
+I hate this product,Negative,i hate this product
+This product is terrible,Negative,this product is terrible
+The service was very poor,Negative,the service was very poor
+I am disappointed with this purchase,Negative,i am disappointed with this purchase
+The quality is very bad,Negative,the quality is very bad
+I did not enjoy this experience,Negative,i did not enjoy this experience
+This is a horrible product,Negative,this is a horrible product
+The delivery was very slow,Negative,the delivery was very slow
+I am unhappy with the service,Negative,i am unhappy with the service
+The movie was absolutely boring,Negative,the movie was absolutely boring
