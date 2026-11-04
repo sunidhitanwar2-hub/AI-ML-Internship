@@ -525,3 +525,60 @@ Build a machine learning model that classifies text reviews as Positive or Negat
 Successfully completed a beginner-level sentiment analysis project using NLP and Machine Learning. The model classifies reviews as Positive or Negative.
 
 **Note:** This project uses only 20 sample reviews for practice. A larger, more diverse dataset is needed for reliable real-world predictions.
+
+# Day 15 – LLM and Hugging Face Model Comparison
+
+## Objective
+- Understand the evolution of AI from Machine Learning to Generative AI.
+- Create a Hugging Face account.
+- Explore the Hugging Face Model Hub.
+- Test different pre-trained AI models.
+- Compare model outputs and document observations.
+
+## Tools and Technologies
+- Python
+- Jupyter Notebook
+- Hugging Face Model Hub
+- Transformers
+- PyTorch
+- VS Code
+
+## Models Tested
+
+### 1. Qwen2.5-0.5B-Instruct
+- **Task:** Text Generation
+- Generated a simple explanation of Artificial Intelligence.
+- Demonstrated how an LLM can generate human-readable text.
+
+### 2. DistilBERT SST-2
+- **Task:** Sentiment Analysis
+- Analyzed a sample product review.
+- **Result:** POSITIVE
+- **Confidence:** 0.9999
+
+### 3. DistilBART CNN
+- **Model:** `sshleifer/distilbart-cnn-6-6`
+- **Task:** Text Summarization
+- Generated a shorter summary of an article about Artificial Intelligence.
+- Demonstrated automatic text summarization.
+
+## Model Comparison
+
+| Model | Task | Observation |
+|---|---|---|
+| Qwen2.5-0.5B-Instruct | Text Generation | Generated an explanation of AI |
+| DistilBERT SST-2 | Sentiment Analysis | Predicted positive sentiment |
+| DistilBART CNN | Summarization | Generated a concise summary |
+
+## Learning Outcomes
+- Learned about Hugging Face and its Model Hub.
+- Learned how to load pre-trained models using the Transformers library.
+- Explored text generation, sentiment analysis, and summarization.
+- Understood how different transformer models perform different NLP tasks.
+- Learned to compare model outputs.
+
+## Conclusion
+Successfully explored Hugging Face and tested three different pre-trained AI models for text generation, sentiment analysis, and text summarization. This task provided practical experience with Large Language Models and transformer-based NLP applications.
+
+## Project File
+- `llm_model_comparison.ipynb` – Notebook containing model loading, testing, outputs, comparison, and conclusion.
