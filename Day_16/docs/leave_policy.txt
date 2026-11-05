@@ -1,0 +1,38 @@
+NovaTech Solutions - Leave Policy
+(Sample company documentation created for this project. NovaTech Solutions is a fictional company.)
+
+1. Purpose
+This policy explains the types of leave available to NovaTech employees, how much leave each employee gets, and how to apply for it. It applies to all full-time employees. Interns and contract staff should refer to their offer letter, as their leave terms may be different.
+
+2. Leave Year
+The leave year runs from 1 January to 31 December. Leave balances are calculated for this period. Employees who join in the middle of the year receive leave on a pro-rata basis, which means the number of days is reduced according to the months left in the year.
+
+3. Earned Leave (Paid Leave)
+Every full-time employee receives 24 days of earned leave per year. Earned leave is credited at the rate of 2 days at the start of each month. Employees can use earned leave for vacations, personal work, or any other reason.
+Earned leave must be applied for at least 7 days in advance for leave of 3 days or more. For shorter leave, 1 day notice is enough.
+Unused earned leave can be carried forward to the next year, up to a maximum of 10 days. Any balance above 10 days will lapse on 31 December. Employees may choose to encash up to 5 days of unused earned leave at the end of the year instead of carrying it forward. Encashment is paid at the employee's basic salary rate.
+
+4. Sick Leave
+Employees receive 10 days of sick leave per year. Sick leave cannot be carried forward and does not get encashed.
+For sick leave of more than 2 consecutive days, a medical certificate from a registered doctor must be uploaded on the HR portal within 3 working days of returning to work. If the certificate is not submitted, the extra days will be adjusted against earned leave.
+
+5. Casual Leave
+Employees receive 6 days of casual leave per year for short, unplanned personal needs. Casual leave can be taken for a maximum of 2 days at a time. Casual leave cannot be combined with earned leave, and it lapses at the end of the year.
+
+6. Maternity and Paternity Leave
+Female employees are entitled to 26 weeks of paid maternity leave, as per the Maternity Benefit Act. Employees must have worked at NovaTech for at least 80 days in the 12 months before the expected delivery date to be eligible.
+Male employees are entitled to 15 days of paid paternity leave. Paternity leave must be taken within 3 months of the child's birth.
+Employees adopting a child below the age of 3 months are entitled to 12 weeks of adoption leave.
+
+7. Bereavement Leave
+In case of the death of an immediate family member (spouse, child, parent, sibling or parent-in-law), employees can take up to 5 days of paid bereavement leave. This leave does not need to be applied in advance; the employee should inform their manager as soon as possible.
+
+8. Public Holidays
+NovaTech observes 12 public holidays every year. The holiday calendar is published on the HR portal in the first week of December for the next year. Employees working on a public holiday because of business needs will receive a compensatory day off, which must be used within 30 days.
+
+9. How to Apply for Leave
+All leave must be applied for through the HR portal at hr.novatech.example under the "My Leave" section. The request goes to the reporting manager for approval. Managers must approve or reject a leave request within 2 working days. If the manager does not respond within 2 working days, the request is escalated to the HR business partner.
+Leave taken without approval will be treated as unpaid leave (loss of pay).
+
+10. Contact
+For any questions about this policy, contact the HR team at hr@novatech.example or call extension 2100.

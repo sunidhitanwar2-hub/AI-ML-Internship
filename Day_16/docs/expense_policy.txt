@@ -1,0 +1,38 @@
+NovaTech Solutions - Travel and Expense Reimbursement Policy
+(Sample company documentation created for this project. NovaTech Solutions is a fictional company.)
+
+1. Purpose
+This policy explains which business expenses NovaTech will reimburse, the limits for each type of expense, and how to submit a claim. The goal is to make sure employees are not out of pocket for genuine business costs, while keeping spending reasonable.
+
+2. General Rules
+Only expenses that are directly related to company business will be reimbursed. Every claim must have an original bill or receipt. Claims without a bill will only be accepted for amounts below Rs. 500, and only with a written explanation.
+All expense claims must be submitted on the Finance portal within 30 days of the expense date. Claims submitted after 30 days will not be reimbursed, unless approved by the Finance Head.
+
+3. Approval Process
+Claims are first approved by the employee's reporting manager. Claims above Rs. 25,000 also need approval from the department head. After approval, the Finance team checks the claim, and the money is paid into the employee's salary bank account within 10 working days.
+
+4. Travel Booking
+All business flights, trains and hotels must be booked through the company travel desk at travel@novatech.example. Bookings made personally will only be reimbursed if the travel desk could not make the booking.
+Domestic flights are booked in economy class for all employees. Employees at the level of Director and above may travel in business class for flights longer than 4 hours. International travel must be approved by the department head at least 21 days before the trip.
+
+5. Hotel Limits
+The maximum hotel cost per night depends on the city:
+- Metro cities (Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Kolkata): Rs. 7,000 per night
+- Other cities: Rs. 4,500 per night
+If an employee stays with friends or family instead of a hotel, they can claim Rs. 1,000 per night as a stay allowance.
+
+6. Daily Allowance
+During business travel, employees receive a daily allowance (per diem) for food and small expenses. The daily allowance is Rs. 1,200 per day in metro cities and Rs. 800 per day in other cities. No bills are needed for the daily allowance. If meals are provided by the client or the company during the trip, the allowance is reduced by half.
+
+7. Local Travel
+Cab rides for business purposes (for example, travelling to a client meeting) are reimbursed at actual cost with the app receipt. Employees using their own car for business travel can claim Rs. 12 per km, and two-wheeler use can be claimed at Rs. 5 per km.
+Daily travel between home and the office is not reimbursed.
+
+8. Client Entertainment
+Expenses for client meals and entertainment are allowed up to Rs. 2,500 per person per occasion. The names of the clients and the business purpose must be mentioned in the claim. Alcohol is not reimbursed.
+
+9. Non-Reimbursable Expenses
+The following expenses will not be reimbursed: traffic fines and parking fines, personal entertainment like movies, minibar charges in hotels, laundry for trips shorter than 4 nights, and expenses for family members travelling with the employee.
+
+10. Contact
+For questions about expenses, contact the Finance team at finance@novatech.example or extension 2500.

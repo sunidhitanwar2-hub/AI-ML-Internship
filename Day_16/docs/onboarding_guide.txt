@@ -1,0 +1,41 @@
+NovaTech Solutions - New Employee Onboarding Guide
+(Sample company documentation created for this project. NovaTech Solutions is a fictional company.)
+
+1. Welcome to NovaTech
+NovaTech Solutions is a software company founded in 2014 and headquartered in Pune, India. We build cloud-based inventory and billing software for small and medium retail businesses. Our main product is NovaBill, which is used by more than 8,000 shops across India. We have around 650 employees working from offices in Pune, Bengaluru and Gurugram.
+
+2. Your First Day
+On your first day, please report to the reception at 9:30 AM with your offer letter and a government ID. The HR team will take you through an induction session from 10:00 AM to 1:00 PM, which covers the company's history, values and policies.
+After lunch, the IT team will hand over your laptop and help you set up your email, multi-factor authentication and VPN. You will also receive your ID card, which you will need to enter the office.
+
+3. Your First Week
+During your first week, you will meet your manager for a one-on-one to discuss your role and goals for the first 90 days. You will also be assigned an onboarding buddy, a colleague from your team who will help you with day-to-day questions for your first month.
+You must complete these mandatory trainings in your first 30 days on the learning portal, learn.novatech.example:
+- Security awareness training
+- Prevention of Sexual Harassment (POSH) training
+- Code of conduct training
+
+4. Probation
+All new employees have a probation period of 3 months. At the end of probation, your manager will review your performance. If the review is positive, you will receive a confirmation letter. In some cases, probation can be extended by up to 3 more months. During probation, the notice period is 15 days; after confirmation, the notice period is 60 days.
+
+5. Salary and Payroll
+Salary is paid on the last working day of every month. Your payslip will be available on the HR portal. To receive your first salary on time, you must submit your bank account details, PAN card and Aadhaar card on the HR portal within your first week.
+Investment declarations for income tax must be submitted on the HR portal by 30 April every year.
+
+6. Benefits
+NovaTech provides group health insurance that covers the employee, their spouse, up to 2 children, and parents. The total cover is Rs. 5,00,000 per year per family. The insurance starts from your date of joining.
+All employees also get a free annual health check-up, term life insurance equal to 3 times their annual salary, and access to a free counselling helpline through the Employee Assistance Program.
+Employees can refer candidates for open roles. If the referred candidate joins and completes 3 months, the employee receives a referral bonus of Rs. 25,000 for junior roles and Rs. 50,000 for senior roles.
+
+7. Performance Reviews
+Performance reviews happen twice a year, in April and October. Salary increments and promotions are decided in the April review cycle. Employees set their goals with their manager at the start of each cycle on the HR portal.
+
+8. Learning and Development
+Every employee has a learning budget of Rs. 20,000 per year for courses, certifications and books related to their work. Requests must be approved by the manager before the course starts. If an employee leaves within 6 months of completing a certification paid by the company, they must repay the cost.
+
+9. Important Contacts
+- HR team: hr@novatech.example, extension 2100
+- IT helpdesk: helpdesk.novatech.example, extension 3000
+- Finance team: finance@novatech.example, extension 2500
+- Security hotline (24x7): extension 4444
+- Facilities and office admin: admin@novatech.example, extension 2200

@@ -582,3 +582,87 @@ Successfully explored Hugging Face and tested three different pre-trained AI mod
 
 ## Project File
 - `llm_model_comparison.ipynb` – Notebook containing model loading, testing, outputs, comparison, and conclusion.
+
+# Day 16: Basic RAG on Company Documentation
+
+## Overview
+Today, I worked on building a basic **Retrieval-Augmented Generation (RAG)** system using sample company documents.
+
+RAG allows an AI model to answer questions using information retrieved from specific documents instead of relying only on its pre-trained knowledge.
+
+## Objective
+- Understand the concept of Retrieval-Augmented Generation.
+- Load and process company documentation.
+- Split documents into smaller chunks.
+- Generate embeddings for the text chunks.
+- Retrieve relevant information using vector search.
+- Use an LLM to generate answers based on the retrieved content.
+- Experiment with different chunk sizes and compare the results.
+
+## Documents Used
+I created five sample policy documents for a fictional company called **NovaTech Solutions**:
+
+1. Leave Policy
+2. Remote Work Policy
+3. IT Security Policy
+4. Expense Policy
+5. Employee Onboarding Guide
+
+## RAG Workflow
+
+The project follows this pipeline:
+
+`Company Documents → Text Chunking → Embeddings → Vector Search → LLM Answer Generation`
+
+### Main Steps
+1. **Document Loading:** Load the sample company documents.
+2. **Text Chunking:** Divide documents into smaller sections for easier retrieval.
+3. **Embeddings:** Convert text chunks into numerical representations.
+4. **Retrieval:** Search for the most relevant chunks based on a user's question.
+5. **Answer Generation:** Provide the retrieved context to an LLM to generate an answer.
+6. **Evaluation:** Compare the results using different chunk sizes.
+
+## Experiments
+I experimented with different chunk sizes to understand how chunking affects document retrieval and answer quality.
+
+The project includes:
+- Chunk-size comparison results
+- Response evaluation results
+- A comparison report
+Technologies Used
+
+Python
+
+Jupyter Notebook
+
+NumPy
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+PyTorch
+
+Transformers
+
+Sentence Transformers
+
+### Key Learnings
+
+Understood the basic concept of RAG.
+
+Learned how document chunking supports information retrieval.
+
+Understood how embeddings represent text numerically.
+
+Explored how vector search retrieves relevant document sections.
+
+Learned how an LLM can use retrieved context to answer questions.
+
+Compared retrieval and response results using different chunk sizes.
+
+### Conclusion
+
+This project helped me understand how Retrieval-Augmented Generation connects document retrieval with language models. It demonstrated how an AI system can use custom company documents to provide context-based answers.

@@ -1,0 +1,73 @@
+chunk_size,question,answer,retrieval_hit,context_recall,answer_score,fully_correct
+150,How many days of sick leave do employees get per year?,"Based on the provided leave policies:
+
+- Sick Leave: Employees receive 10 days of sick leave per year.
+- Casual Leave: Employees receive 6 days of casual leave per year for short, unplanned personal needs.",True,1.0,1.0,True
+150,"How many earned leave days can be carried forward to next year, and how many can be encashed?","Based on the information provided in [leave_policy.txt], according to the months left in the year:
+
+1. The policy allows employees to carry forward up to 10 days of earned leave.
+2. Any remaining unencashed earned leave after this limit can be carried forward to the following year.
+
+So, the total number of earned leave days that can be carried forward to the next year is 10 days, and any excess can be carried over to the following year as well.",True,1.0,0.5,False
+150,How long is paternity leave and within what time must it be taken?,"Paternity leave is 26 weeks long, and it must be taken within 3 months of the child's birth.",True,1.0,0.5,False
+150,"How many days a week do hybrid employees need to be in the office, and which are the anchor days?",Hybrid employees need to work from the office at least 3 days per week. The anchor days are Tuesday and Thursday.,True,1.0,1.0,True
+150,What is the monthly internet allowance for remote employees?,"The monthly internet allowance for remote employees is Rs. 1,500 per month.",True,1.0,1.0,True
+150,What are the core working hours?,"During core hours, which are 11:00 AM to 4:00 PM IST, employees are eligible to work remotely.",True,1.0,1.0,True
+150,What is the minimum password length and how often must passwords be changed?,"The minimum password length requirement is 12 characters long, and passwords must be changed every 90 days.",True,1.0,1.0,True
+150,Within how much time must a lost or stolen laptop be reported to the IT helpdesk?,The IT team will remotely lock and wipe the device. The employee must also file a police report (FIR) within 24 hours and share a copy with the IT team.,True,1.0,0.0,False
+150,What is the maximum hotel cost per night in metro cities and in other cities?,"The maximum hotel cost per night in metro cities is Rs. 7,000 per night, while in other cities it's Rs. 4,500 per night.",True,1.0,1.0,True
+150,Within how many days must expense claims be submitted?,Expense claims must be submitted on the Finance portal within 30 days of the expense date.,True,1.0,1.0,True
+150,What is the notice period after confirmation?,"After confirmation, the notice period is 60 days.",True,1.0,1.0,True
+150,How much is the yearly learning budget per employee?,"The yearly learning budget per employee is Rs. 20,000.",True,1.0,1.0,True
+300,How many days of sick leave do employees get per year?,Employees receive 10 days of sick leave per year.,True,1.0,1.0,True
+300,"How many earned leave days can be carried forward to next year, and how many can be encashed?","Based on the information provided:
+
+- The policy states that unused earned leave can be carried forward to the next year, up to a maximum of 10 days.
+- It also mentions that any balance above 10 days will lapse on 31 December.
+
+Therefore, the answer is:
+- 10 days can be carried forward to the next year.
+- Any remaining balance (above 10 days) will lapse on 31 December.",True,1.0,0.5,False
+300,How long is paternity leave and within what time must it be taken?,"Paternity leave is 15 days, and it must be taken within 3 months of the child's birth.",True,1.0,1.0,True
+300,"How many days a week do hybrid employees need to be in the office, and which are the anchor days?","Hybrid employees need to be in the office for at least 3 days per week. These are the anchor days, which include Tuesday and Thursday.",True,1.0,1.0,True
+300,What is the monthly internet allowance for remote employees?,"The monthly internet allowance for remote employees is Rs. 1,500.",True,1.0,1.0,True
+300,What are the core working hours?,The core working hours specified in the remote work policy are 11:00 AM to 4:00 PM IST (India Standard Time).,True,1.0,1.0,True
+300,What is the minimum password length and how often must passwords be changed?,"The minimum password length requirement is 12 characters, and passwords must be changed every 90 days.",True,1.0,1.0,True
+300,Within how much time must a lost or stolen laptop be reported to the IT helpdesk?,The IT helpdesk must report a lost or stolen laptop to the company within 1 hour of noticing.,True,1.0,1.0,True
+300,What is the maximum hotel cost per night in metro cities and in other cities?,"The maximum hotel cost per night in metro cities is Rs. 7,000, while in other cities it's Rs. 4,500.",True,1.0,1.0,True
+300,Within how many days must expense claims be submitted?,Within 30 days of the expense date.,True,1.0,1.0,True
+300,What is the notice period after confirmation?,"After confirming that the performance review was positive, the notice period is 60 days.",True,1.0,1.0,True
+300,How much is the yearly learning budget per employee?,"The yearly learning budget per employee is Rs. 20,000.",True,1.0,1.0,True
+600,How many days of sick leave do employees get per year?,Employees receive 10 days of sick leave per year.,True,1.0,1.0,True
+600,"How many earned leave days can be carried forward to next year, and how many can be encashed?","Based on the information provided in the [leave_policy.txt] file:
+
+For longer leave periods, unused earned leave can be carried forward to the next year, up to a maximum of 10 days. Any balance above 10 days will lapse on 31 December.
+
+For shorter leave periods, 1 day notice is needed before leaving, and unused earned leave can be carried forward to the next year, up to a maximum of 10 days. Any balance above 10 days will lapse on 31 December.
+
+The specific details about how much earned leave can be carried forward",True,1.0,0.5,False
+600,How long is paternity leave and within what time must it be taken?,"Paternity leave is 15 days, and it must be taken within 3 months of the child's birth.",True,1.0,1.0,True
+600,"How many days a week do hybrid employees need to be in the office, and which are the anchor days?","Hybrid employees need to be in the office for at least 3 days per week, and Thursday is considered an anchor day.",True,1.0,0.6666666666666666,False
+600,What is the monthly internet allowance for remote employees?,"The monthly internet allowance for remote employees is Rs. 1,500 per month.",True,1.0,1.0,True
+600,What are the core working hours?,"The core working hours for NovaTech Solutions are 11:00 AM to 4:00 PM IST, regardless of whether the employee is working from home or the office.",True,1.0,1.0,True
+600,What is the minimum password length and how often must passwords be changed?,"The minimum password length requirement is 12 characters, and passwords must be changed every 90 days.",True,1.0,1.0,True
+600,Within how much time must a lost or stolen laptop be reported to the IT helpdesk?,The IT helpdesk must report a lost or stolen laptop to the IT team within 1 hour of noticing.,True,1.0,1.0,True
+600,What is the maximum hotel cost per night in metro cities and in other cities?,"The maximum hotel cost per night in metro cities is Rs. 7,000, while in other cities it is Rs. 4,500.",True,1.0,1.0,True
+600,Within how many days must expense claims be submitted?,Expense claims must be submitted on the Finance portal within 30 days of the expense date.,True,1.0,1.0,True
+600,What is the notice period after confirmation?,"After confirmation, the notice period is 60 days.",True,1.0,1.0,True
+600,How much is the yearly learning budget per employee?,"The yearly learning budget per employee is Rs. 20,000.",True,1.0,1.0,True
+1200,How many days of sick leave do employees get per year?,Employees receive 10 days of sick leave per year.,True,1.0,1.0,True
+1200,"How many earned leave days can be carried forward to next year, and how many can be encashed?","Based on the information provided:
+
+- Unused earned leave can be carried forward to the next year, up to a maximum of 10 days.
+- Any balance above 10 days will lapse on 31 December.",True,1.0,0.5,False
+1200,How long is paternity leave and within what time must it be taken?,Paternity leave is 15 days of paid leave. It must be taken within 3 months of the child's birth.,True,1.0,1.0,True
+1200,"How many days a week do hybrid employees need to be in the office, and which are the anchor days?",Hybrid employees need to work from the office at least 3 days per week. The anchor days are Tuesday and Thursday.,True,1.0,1.0,True
+1200,What is the monthly internet allowance for remote employees?,"The monthly internet allowance for remote employees is Rs. 1,500 per month.",True,1.0,1.0,True
+1200,What are the core working hours?,"The core working hours for NovaTech Solutions' employees are 11:00 AM to 4:00 PM IST, whether they are working from home or the office.",True,1.0,1.0,True
+1200,What is the minimum password length and how often must passwords be changed?,"The minimum password length requirement is 12 characters, and passwords must be changed every 90 days.",True,1.0,1.0,True
+1200,Within how much time must a lost or stolen laptop be reported to the IT helpdesk?,The IT helpdesk must report a lost or stolen laptop within 1 hour of noticing.,True,1.0,1.0,True
+1200,What is the maximum hotel cost per night in metro cities and in other cities?,"The maximum hotel cost per night in metro cities is Rs. 7,000 per night, and in other cities it is Rs. 4,500 per night.",True,1.0,1.0,True
+1200,Within how many days must expense claims be submitted?,Expenses claims must be submitted on the Finance portal within 30 days of the expense date.,True,1.0,1.0,True
+1200,What is the notice period after confirmation?,"After confirmation, the notice period is 60 days.",True,1.0,1.0,True
+1200,How much is the yearly learning budget per employee?,"The yearly learning budget per employee is Rs. 20,000.",True,1.0,1.0,True

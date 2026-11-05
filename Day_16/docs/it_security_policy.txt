@@ -1,0 +1,42 @@
+NovaTech Solutions - IT Security Policy
+(Sample company documentation created for this project. NovaTech Solutions is a fictional company.)
+
+1. Purpose
+This policy protects NovaTech's systems, customer data and employee information. Every employee, intern and contractor must follow it. Breaking this policy may lead to disciplinary action, including termination.
+
+2. Passwords
+Passwords for company accounts must be at least 12 characters long and must include an uppercase letter, a lowercase letter, a number and a special character. Passwords must be changed every 90 days, and the last 5 passwords cannot be reused.
+Employees must never share their password with anyone, including the IT team. The IT team will never ask for your password by email or phone.
+Employees should use the company password manager, KeyVault, to store work passwords. Saving passwords in browsers or in text files is not allowed.
+
+3. Multi-Factor Authentication
+Multi-factor authentication (MFA) is mandatory for email, the HR portal, the VPN and all cloud tools. Employees must use the NovaTech Authenticator app on their phone. SMS codes are only allowed as a backup method.
+
+4. Devices
+Employees must only use company-issued laptops for work. Personal laptops cannot be connected to the company network. Company laptops have full-disk encryption and endpoint protection software installed; employees must not disable or uninstall these tools.
+Software can only be installed from the NovaTech Software Center. If an employee needs software that is not available there, they must raise a request on the IT helpdesk portal, and it will be reviewed by the IT security team within 3 working days.
+USB storage devices (pen drives and external hard disks) are blocked on company laptops. If an employee needs to transfer files, they should use the company's shared drive.
+
+5. Lost or Stolen Devices
+If a company laptop or phone is lost or stolen, the employee must report it to the IT helpdesk within 1 hour of noticing. The IT team will remotely lock and wipe the device. The employee must also file a police report (FIR) within 24 hours and share a copy with the IT team.
+
+6. Email and Phishing
+Employees must be careful with emails from unknown senders, especially those asking to click a link, open an attachment or share information. Suspicious emails must be reported using the "Report Phishing" button in Outlook. Do not forward the suspicious email to colleagues.
+All employees must complete the security awareness training within 30 days of joining and then once every year. The IT team runs phishing simulation tests every quarter.
+
+7. Data Classification
+Company data is classified into four levels:
+- Public: information that can be shared outside the company, like marketing material.
+- Internal: information for employees only, like internal announcements.
+- Confidential: sensitive business information, like financial reports and customer contracts.
+- Restricted: the most sensitive data, like customer personal data and source code.
+Confidential and Restricted data must not be shared outside the company without approval from the data owner. Restricted data must never be uploaded to personal cloud storage or to public AI tools.
+
+8. Access Control
+Employees receive access only to the systems they need for their job. Access requests are raised on the IT helpdesk portal and approved by the employee's manager. Access is reviewed every 6 months. When an employee leaves the company, all access is removed on their last working day.
+
+9. Reporting Security Incidents
+Any security incident, such as a virus, a suspicious login, or accidental sharing of data, must be reported immediately to the security team at security@novatech.example or by calling the 24x7 security hotline at extension 4444.
+
+10. IT Helpdesk
+The IT helpdesk is available Monday to Friday from 8:00 AM to 8:00 PM IST at helpdesk.novatech.example or extension 3000. For urgent issues outside these hours, use the security hotline.
