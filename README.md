@@ -666,3 +666,87 @@ Compared retrieval and response results using different chunk sizes.
 ### Conclusion
 
 This project helped me understand how Retrieval-Augmented Generation connects document retrieval with language models. It demonstrated how an AI system can use custom company documents to provide context-based answers.
+
+# Day 17 – Complete RAG API using FastAPI
+
+## Objective
+To build an end-to-end Retrieval-Augmented Generation (RAG) API that allows users to upload PDF or TXT documents and ask questions based on their content.
+
+## Technologies Used
+- Python 3.11
+- FastAPI
+- Uvicorn
+- Sentence Transformers
+- Hugging Face Transformers
+- Qwen 2.5 0.5B Instruct
+- PyPDF
+- NumPy
+- Swagger UI
+
+## Project Structure
+```text
+Day_17/
+├── docs/
+├── results/
+├── screenshots/
+├── uploads/
+├── main.py
+├── rag_pipeline.py
+├── document_processor.py
+├── requirements.txt
+└── README.md
+```
+
+## Implementation
+
+### 1. Document Processing
+- Accepted PDF and TXT file uploads.
+- Extracted text using PyPDF for PDF files.
+- Divided extracted text into smaller overlapping chunks.
+- Handled empty files and unsupported formats.
+
+### 2. RAG Pipeline
+- Generated text embeddings using `all-MiniLM-L6-v2`.
+- Used NumPy cosine similarity through normalized embedding dot products to retrieve relevant chunks.
+- Used Qwen 2.5 0.5B Instruct to generate answers from retrieved document content.
+
+### 3. FastAPI Endpoints
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/` | Check API status |
+| POST | `/upload` | Upload and process documents |
+| POST | `/ask` | Ask questions about uploaded documents |
+
+### 4. API Testing
+Tested the API using FastAPI Swagger UI at:
+
+`http://127.0.0.1:8000/docs`
+
+- Uploaded a PDF document about DBMS.
+- Generated document chunks and embeddings.
+- Asked questions about the uploaded document.
+- Received AI-generated answers with source text and similarity scores.
+- Verified successful API responses.
+
+### 5. Error Handling
+- Unsupported file formats return HTTP 400.
+- Empty files are rejected.
+- Documents without readable text are rejected.
+- Asking questions with an unknown document ID returns HTTP 404.
+
+## Key Learnings
+- Building REST APIs using FastAPI.
+- Handling file uploads with Python.
+- Extracting and chunking document text.
+- Generating and retrieving embeddings.
+- Connecting an LLM with a RAG pipeline.
+- Testing API endpoints using Swagger UI.
+- Handling invalid inputs and API errors.
+
+## Limitations and Future Improvements
+- Add file-size limits for large uploads.
+- Add persistent vector storage instead of in-memory storage.
+- Improve support for scanned PDFs using OCR.
+- Add more document formats.
+- Improve
