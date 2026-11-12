@@ -750,3 +750,44 @@ Tested the API using FastAPI Swagger UI at:
 - Improve support for scanned PDFs using OCR.
 - Add more document formats.
 - Improve
+
+# Day 18 – AI Agent: Company HR Research Agent
+
+## Objective
+Built an AI Agent that answers employee questions about company HR policies using tools connected to the Day 17 RAG API.
+
+## Technologies Used
+- Python
+- FastAPI
+- Uvicorn
+- Requests
+- RAG API
+
+## Project Files
+- `main.py` – FastAPI application
+- `agent.py` – Agent workflow and decision-making
+- `tools.py` – Functions used by the agent
+- `hr_policy.txt` – Company HR policy document
+
+## Tools Created
+1. Company Document Search
+2. Leave Information
+3. Working Hours
+
+## Workflow
+1. Receive an employee question.
+2. Select the appropriate tool.
+3. Retrieve information through the RAG API.
+4. Generate and return the final answer.
+
+## Testing
+Tested the agent using FastAPI Swagger UI at `http://127.0.0.1:8000/docs`.
+
+## Learning Outcomes
+- Understood AI Agent workflows.
+- Practised planning and tool selection.
+- Connected an AI Agent with a RAG API.
+- Tested API responses using Swagger UI.
+
+## Conclusion
+Successfully built a Company HR Research Agent that selects appropriate tools to answer employee questions using company documents.
