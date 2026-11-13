@@ -15,7 +15,7 @@ def search_company_documents(question, document_id):
             "question": question,
             "document_id": document_id
         },
-        timeout=120
+        timeout=300
     )
 
     response.raise_for_status()

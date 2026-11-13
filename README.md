@@ -791,3 +791,32 @@ Tested the agent using FastAPI Swagger UI at `http://127.0.0.1:8000/docs`.
 
 ## Conclusion
 Successfully built a Company HR Research Agent that selects appropriate tools to answer employee questions using company documents.
+
+# Day 19 – LangGraph Workflows
+
+## Objective
+Build an HR assistant using LangGraph with nodes, state, conditional routing, and memory.
+
+## Technologies
+- Python
+- LangGraph
+- FastAPI
+- Requests
+
+## Features
+- Question validation
+- Document retrieval using Day 17 RAG API
+- Conditional routing
+- Error handling
+- Checkpoint memory using MemorySaver
+
+## Workflow
+User Question → Validation → Document Retrieval → Answer
+
+Invalid questions or retrieval failures are routed to an error-handling node.
+
+## Learning Outcomes
+Learned how to create LangGraph workflows, manage state, implement conditional routing, and use memory.
+
+## Conclusion
+Successfully created a basic LangGraph HR assistant integrated with the existing RAG API.
