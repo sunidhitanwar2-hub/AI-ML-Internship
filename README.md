@@ -820,3 +820,43 @@ Learned how to create LangGraph workflows, manage state, implement conditional r
 
 ## Conclusion
 Successfully created a basic LangGraph HR assistant integrated with the existing RAG API.
+# Day 20 – Tool Creation and Function Calling
+
+## Overview
+Built a Company AI Tool Assistant using Python. It selects and executes tools based on user requests.
+
+## Tools Implemented
+- Calculator
+- Web Search
+- Database Query
+- File Reader (PDF/TXT)
+- Weather
+- Email Draft
+- Date and Time
+- CSV Data Analyzer
+- Company Search using Day 17 RAG API
+
+## Key Features
+- Keyword-based tool selection
+- Parameter extraction
+- Tool planning and execution
+- Tool chaining (Weather → Email)
+- Basic error handling
+
+## Technologies
+Python, SQLite, Pandas, FastAPI, Requests, PyPDF
+
+## Project Structure
+- `main.py` – Main application
+- `tools.py` – Tool functions
+- `tool_selector.py` – Tool selection
+- `tool_planner.py` – Tool planning
+- `tool_executor.py` – Tool execution
+- `data/` – Sample CSV data
+- `docs/` – Project documentation
+
+## Testing
+Successfully tested weather retrieval, email draft creation, calculator, database, CSV analysis, file reading, and company document search.
+
+## Learning Outcome
+Learned tool creation, function calling, tool selection, tool chaining, and error handling.
