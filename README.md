@@ -860,3 +860,37 @@ Successfully tested weather retrieval, email draft creation, calculator, databas
 
 ## Learning Outcome
 Learned tool creation, function calling, tool selection, tool chaining, and error handling.
+
+# Day 21 – Async Programming and FastAPI
+
+## Overview
+This project demonstrates asynchronous APIs and advanced FastAPI features.
+
+## Features
+- Async and Await endpoints
+- Background Tasks
+- Middleware
+- Pydantic Validation
+- Dependency Injection
+- API Versioning
+- Performance Benchmarking
+
+## Performance Results
+
+| API | Execution Time |
+|---|---:|
+| Synchronous | 5.06 sec |
+| Asynchronous | 3.11 sec |
+
+**Observed improvement:** 38.54% reduction in execution time.
+
+## Run the API
+```bash
+pip install -r requirements.txt
+python -m uvicorn async_api:app --reload --port 8002
+```
+
+Open Swagger UI: `http://127.0.0.1:8002/docs`
+
+## Technologies
+Python, FastAPI, Uvicorn, Asyncio, Pydantic, HTTPX.
