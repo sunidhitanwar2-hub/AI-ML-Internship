@@ -894,3 +894,35 @@ Open Swagger UI: `http://127.0.0.1:8002/docs`
 
 ## Technologies
 Python, FastAPI, Uvicorn, Asyncio, Pydantic, HTTPX.
+
+# Day 22 – Multi-Agent Research Assistant
+
+## Overview
+Built a company research assistant using five specialized agents that work together to answer questions from company documents.
+
+## Agents
+- Coordinator Agent – Manages the workflow.
+- Research Agent – Retrieves company information using the RAG API.
+- Analyzer Agent – Analyzes research findings.
+- Critic Agent – Reviews and approves the analysis.
+- Writer Agent – Generates the final report.
+
+## Features
+- Multi-agent communication
+- Shared state management
+- Workflow planning
+- Critic review and correction loop
+- FastAPI integration
+- Company document research
+
+## Run the Project
+Start the Day 17 RAG API on port 8001, then run:
+
+```bash
+python -m uvicorn main:app --reload --port 8003
+```
+
+Open Swagger UI: `http://127.0.0.1:8003/docs`
+
+## Technologies
+Python, FastAPI, Requests, Pydantic, RAG, Multi-Agent Workflow.
