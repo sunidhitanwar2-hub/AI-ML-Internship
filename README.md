@@ -926,3 +926,41 @@ Open Swagger UI: `http://127.0.0.1:8003/docs`
 
 ## Technologies
 Python, FastAPI, Requests, Pydantic, RAG, Multi-Agent Workflow.
+
+# Day 23 – LangGraph Integration and Multi-Agent Communication
+
+## Overview
+Integrated LangGraph with the Multi-Agent Research Assistant to manage agent communication, shared state, and workflow execution.
+
+## Features
+- Coordinator, Research, Analyzer, Critic, and Writer Agents.
+- LangGraph workflow integration.
+- Shared state management.
+- Conditional routing and error handling.
+- Day 17 RAG API integration.
+- FastAPI endpoint for research requests.
+
+## Technologies
+Python, LangGraph, FastAPI, LangChain Core, Uvicorn, Requests.
+
+## Run the Project
+
+Start Day 17 API:
+```bash
+python -m uvicorn main:app --reload --port 8001
+```
+
+Start Day 23 API:
+```bash
+python -m uvicorn main:app --reload --port 8004
+```
+
+Swagger UI: http://127.0.0.1:8004/docs
+
+## Deliverables
+- Agent Communication Flow
+- Sequence Diagram
+- System Explanation
+
+## Result
+Successfully tested the multi-agent workflow and generated a company research report using HR policy documents.
