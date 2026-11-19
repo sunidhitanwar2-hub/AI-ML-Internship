@@ -964,3 +964,55 @@ Swagger UI: http://127.0.0.1:8004/docs
 
 ## Result
 Successfully tested the multi-agent workflow and generated a company research report using HR policy documents.
+
+# Day 23 – Production Readiness and Docker
+
+## Project Overview
+A Multi-Agent Research Assistant built using FastAPI and LangGraph. It connects with the Day 17 RAG API to retrieve company information and generate research reports.
+
+## Features
+- Multi-agent workflow using LangGraph
+- FastAPI endpoints
+- Unit and API testing using Pytest
+- Application logging
+- Environment variable configuration using `.env`
+- Docker containerization
+
+## Project Structure
+- `agents/` – Research, Analyzer, Critic and Writer agents
+- `docs/` – Project documentation and reports
+- `diagrams/` – Workflow diagrams
+- `logs/` – Application logs
+- `tests/` – Unit and API tests
+- `main.py` – FastAPI application
+- `graph_workflow.py` – LangGraph workflow
+- `Dockerfile` – Docker configuration
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+python -m uvicorn main:app --reload --port 8004
+```
+
+Swagger UI: http://127.0.0.1:8004/docs
+
+## Run Tests
+```bash
+python -m pytest tests/ -v
+```
+
+## Run with Docker
+```bash
+docker build --load -t day23-research-assistant .
+docker run -d --name day23-container -p 8004:8004 --env-file .env day23-research-assistant
+```
+
+## Documentation
+- Deployment Checklist
+- Production Readiness Report
+- Agent Communication Flow
+- Sequence Diagram
+
+## Technologies
+Python, FastAPI, LangGraph, Pytest, Docker and Python Logging.
+:::

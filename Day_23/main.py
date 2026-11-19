@@ -1,30 +1,46 @@
 
+import os
+import logging
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
+from dotenv import load_dotenv
+from logging_config import logger
 from graph_workflow import research_graph
 
+# Load environment variables
+load_dotenv()
+
+# Create FastAPI application
 app = FastAPI(
-    title="Day 23 - LangGraph Multi-Agent Research Assistant",
-    description="Company Research Assistant using LangGraph",
-    version="1.0.0"
+    title=os.getenv(
+        "APP_NAME",
+        "Day 23 Multi-Agent Research Assistant"
+    ),
+    version=os.getenv("APP_VERSION", "1.0.0"),
+    description="Company Research Assistant using LangGraph"
 )
 
-
+# Request model
 class ResearchRequest(BaseModel):
     question: str = Field(min_length=3)
     document_id: str
 
-
+# Home endpoint
 @app.get("/")
 async def home():
+    logger.info("Home endpoint accessed")
+
     return {
         "message": "Day 23 LangGraph API is running"
     }
 
-
+# Research endpoint
 @app.post("/research")
 def research(request: ResearchRequest):
+
+    logger.info("Research request received")
 
     initial_state = {
         "question": request.question,
@@ -39,13 +55,22 @@ def research(request: ResearchRequest):
     }
 
     try:
+        logger.info("Starting LangGraph workflow")
+
         result = research_graph.invoke(initial_state)
 
         if result.get("error"):
+            logger.error(
+                "Research workflow failed: %s",
+                result["error"]
+            )
+
             raise HTTPException(
                 status_code=400,
                 detail=result["error"]
             )
+
+        logger.info("Research workflow completed successfully")
 
         return {
             "question": result["question"],
@@ -60,8 +85,10 @@ def research(request: ResearchRequest):
     except HTTPException:
         raise
 
-    except Exception as e:
+    except Exception:
+        logger.exception("Unexpected error during research workflow")
+
         raise HTTPException(
             status_code=500,
-            detail=f"Workflow failed: {str(e)}"
+            detail="Internal server error during research workflow"
         )
