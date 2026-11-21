@@ -1060,3 +1060,29 @@ Open `Day25_AI_Research_Summary.docx` in Microsoft Word.
 
 ## Technologies
 Web research, Artificial Analysis benchmarks, provider pricing pages, Markdown and Microsoft Word.
+
+# Day 26 – Responsible AI Case Study and Company Guidelines
+
+## Project Overview
+A Responsible AI assignment built around a real incident: *Mata v. Avianca* (2023), where lawyers filed a court brief citing cases that ChatGPT had invented. The report explains what happened, the impact and how to prevent similar issues, and ends with a set of Responsible AI Guidelines for a company.
+
+## Features
+- Case study report (what happened, root causes, impact)
+- Prevention recommendations (8 practical steps)
+- Responsible AI summary
+- Mini practical: Responsible AI Guidelines for a company (accountability, accuracy, fairness, privacy, transparency, safety, misinformation, training, enforcement)
+- Sources cited, with a note where reports differ
+
+## Project Structure
+- `Day26_Responsible_AI_Case_Study.docx` – Case study, prevention recommendations, summary and company guidelines
+- `day26_sheet_row.tsv` – Day 26 tracker row
+- `README.md` – Project description
+
+## Key Learnings
+- The incident was a hallucination plus a missing verification process, not just a model error.
+- Never use the AI itself to confirm its own output.
+- A named human must stay accountable for AI-assisted decisions.
+- Admitting mistakes early limits the damage; doubling down made the sanctions harsher.
+
+## Technologies
+Web research, case-study analysis, policy writing, Microsoft Word.
