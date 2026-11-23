@@ -1016,3 +1016,45 @@ docker run -d --name day23-container -p 8004:8004 --env-file .env day23-research
 ## Technologies
 Python, FastAPI, LangGraph, Pytest, Docker and Python Logging.
 :::
+# Day 27 – Agile Project Planning
+
+## Project Name
+Student Management System with AI Features
+
+## Project Overview
+This project focuses on planning a web-based Student Management System that manages student profiles, attendance, marks, and AI-based academic performance analysis.
+
+## Learning Objectives
+- Agile methodology
+- Git collaboration
+- Architecture design
+- Team roles and responsibilities
+- Sprint planning and task prioritization
+
+## Project Deliverables
+1. Sprint Planning Document
+2. Task Priority Table
+3. Project Timeline
+
+## Development Approach
+The project follows Agile methodology with five sprints over an estimated period of ten weeks.
+
+## Proposed Technology Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python and FastAPI
+- Database: SQLite
+- AI Module: Python
+
+## Project Structure
+```text
+Day_27/
+├── docs/
+│   ├── Sprint_Planning_Document.md
+│   ├── Task_Priority_Table.md
+│   └── Project_Timeline.md
+└── README.md
+```
+
+## Conclusion
+This planning exercise demonstrates how an AI-based software project can be organized using Agile sprints, task prioritization, architecture design, and Git collaboration.
+:::
