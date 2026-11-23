@@ -1058,3 +1058,73 @@ Day_27/
 ## Conclusion
 This planning exercise demonstrates how an AI-based software project can be organized using Agile sprints, task prioritization, architecture design, and Git collaboration.
 :::
+
+# Day 25 – AI Industry Research and LLM Provider Comparison
+
+## Project Overview
+A research assignment on AI agents in the enterprise, based on Zapier's November 2026 survey article "88% of enterprises now use or test AI agents, but most still need a human in the loop". It also includes a mini practical comparing OpenAI, Claude, Gemini and Groq on cost, speed and accuracy.
+
+## Features
+- Summary of a recent AI article (technology, business impact, developer skills)
+- Full article reference (title, publisher, date, URL)
+- Key learning points
+- Comparison table of OpenAI, Claude, Gemini and Groq (cost, speed, accuracy)
+- Written takeaway on which provider to use for which task
+- Sources cited for every figure, with the date the data was collected (20 Nov 2026)
+
+## Project Structure
+- `Day25_AI_Research_Summary.docx` – Research summary, key learning points and provider comparison
+- `day25_sheet_row.tsv` – Day 25 tracker row
+- `README.md` – Project description
+
+## Research Topics
+1. AI agents in the enterprise (main topic)
+2. LLM API cost and speed trade-offs
+3. Human-in-the-loop AI governance and safety
+
+## Key Findings
+- 88% of enterprises use or test AI agents; 71% run them in production (40% in 2025).
+- Only 30% say agents handle most tasks without human help.
+- Claude Fable 5.2 scored highest on accuracy (Artificial Analysis Intelligence Index 65), ahead of GPT-6.2 Astra (62) and Gemini 4 Neon (61).
+- Groq is the fastest and cheapest, but only for open-weight models.
+- GPT-6.2 Sol was the fastest of the three large providers.
+
+## Skills for Developers
+Agent orchestration, tool integration (APIs and MCP), reliability and logging, security and guardrails, model selection and cost control, clear process specification.
+
+## Open the Report
+Open `Day25_AI_Research_Summary.docx` in Microsoft Word.
+
+## Data Notes
+- Figures were gathered on 20 Nov 2026 and prices change often; verify before relying on them.
+- OpenAI and Groq prices come from secondary sources because their own pricing pages could not be read.
+- The source article is a vendor survey from Zapier, so treat it as an industry signal.
+
+## Technologies
+Web research, Artificial Analysis benchmarks, provider pricing pages, Markdown and Microsoft Word.
+
+# Day 26 – Responsible AI Case Study and Company Guidelines
+
+## Project Overview
+A Responsible AI assignment built around a real incident: *Mata v. Avianca* (2023), where lawyers filed a court brief citing cases that ChatGPT had invented. The report explains what happened, the impact and how to prevent similar issues, and ends with a set of Responsible AI Guidelines for a company.
+
+## Features
+- Case study report (what happened, root causes, impact)
+- Prevention recommendations (8 practical steps)
+- Responsible AI summary
+- Mini practical: Responsible AI Guidelines for a company (accountability, accuracy, fairness, privacy, transparency, safety, misinformation, training, enforcement)
+- Sources cited, with a note where reports differ
+
+## Project Structure
+- `Day26_Responsible_AI_Case_Study.docx` – Case study, prevention recommendations, summary and company guidelines
+- `day26_sheet_row.tsv` – Day 26 tracker row
+- `README.md` – Project description
+
+## Key Learnings
+- The incident was a hallucination plus a missing verification process, not just a model error.
+- Never use the AI itself to confirm its own output.
+- A named human must stay accountable for AI-assisted decisions.
+- Admitting mistakes early limits the damage; doubling down made the sanctions harsher.
+
+## Technologies
+Web research, case-study analysis, policy writing, Microsoft Word.
