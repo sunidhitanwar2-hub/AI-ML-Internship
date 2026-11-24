@@ -1,49 +1,42 @@
+"""Student Management System with AI Features – API entry point.
+
+Run:  python -m uvicorn main:app --reload --port 8005
+Docs: http://127.0.0.1:8005/docs
+"""
+
+import logging
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
-import sqlite3
 
-app = FastAPI()
+from config import get_log_level
+from database import init_db
+from routers import students
 
-conn = sqlite3.connect("students.db", check_same_thread=False)
-c = conn.cursor()
-c.execute("CREATE TABLE IF NOT EXISTS students (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT, age INTEGER, course TEXT)")
-conn.commit()
-
-
-@app.post("/add")
-def add(d: dict):
-    c.execute(f"INSERT INTO students (name, email, age, course) VALUES ('{d['name']}', '{d['email']}', {d['age']}, '{d['course']}')")
-    conn.commit()
-    return {"msg": "added"}
+logging.basicConfig(
+    level=get_log_level(),
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 
-@app.get("/all")
-def all():
-    c.execute("SELECT * FROM students")
-    rows = c.fetchall()
-    res = []
-    for r in rows:
-        res.append({"id": r[0], "name": r[1], "email": r[2], "age": r[3], "course": r[4]})
-    return res
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    logger.info("Database ready")
+    yield
 
 
-@app.get("/get/{id}")
-def get(id):
-    c.execute(f"SELECT * FROM students WHERE id = {id}")
-    r = c.fetchone()
-    if r:
-        return {"id": r[0], "name": r[1], "email": r[2], "age": r[3], "course": r[4]}
-    return None
+app = FastAPI(
+    title="Student Management System",
+    description="Student registration and profile management (Sprint 2 feature).",
+    version="0.2.0",
+    lifespan=lifespan,
+)
+app.include_router(students.router)
 
 
-@app.put("/update/{id}")
-def update(id, d: dict):
-    c.execute(f"UPDATE students SET name = '{d['name']}', email = '{d['email']}', age = {d['age']}, course = '{d['course']}' WHERE id = {id}")
-    conn.commit()
-    return {"msg": "updated"}
-
-
-@app.delete("/delete/{id}")
-def delete(id):
-    c.execute(f"DELETE FROM students WHERE id = {id}")
-    conn.commit()
-    return {"msg": "deleted"}
+@app.get("/health", tags=["Health"])
+def health() -> dict[str, str]:
+    """Simple check that the API is running."""
+    return {"status": "ok"}
