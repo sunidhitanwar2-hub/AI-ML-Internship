@@ -1128,3 +1128,40 @@ A Responsible AI assignment built around a real incident: *Mata v. Avianca* (202
 
 ## Technologies
 Web research, case-study analysis, policy writing, Microsoft Word.
+# Day 29 – Project Polish, Documentation & Demo Preparation
+
+## Project
+AI Research Assistant – Multi-Agent System
+
+## Objective
+Prepare the existing AI project for mentor presentation, technical discussion, and live demonstration.
+
+## Completed Tasks
+- Prepared technical interview questions and answers.
+- Created presentation notes for a 10–15 minute presentation.
+- Prepared a live demo workflow.
+- Created a demo practice checklist.
+- Reviewed project architecture and workflow.
+- Prepared explanations of testing, logging, Docker, and environment variables.
+- Documented project challenges and future improvements.
+
+## Deliverables
+- `docs/Interview_Questions_Answers.md`
+- `docs/Presentation_Notes.md`
+- `docs/Demo_Practice_Checklist.md`
+
+## Project Demo
+The project demonstrates a multi-agent research workflow using FastAPI, LangGraph, shared state, and a RAG API.
+
+## Testing
+Six Pytest tests passed during Day 24 testing.
+
+## Deployment
+The application was containerized using Docker and successfully tested.
+
+## Technologies
+Python, FastAPI, LangGraph, RAG, Pytest, Docker, Logging, Environment Variables.
+
+## Status
+Completed – Project documentation, interview preparation, and demo preparation.
+
