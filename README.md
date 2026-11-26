@@ -1016,48 +1016,60 @@ docker run -d --name day23-container -p 8004:8004 --env-file .env day23-research
 ## Technologies
 Python, FastAPI, LangGraph, Pytest, Docker and Python Logging.
 :::
-# Day 27 – Agile Project Planning
-
-## Project Name
-Student Management System with AI Features
+# Day 24 – Testing, Logging, Docker & Production Readiness
 
 ## Project Overview
-This project focuses on planning a web-based Student Management System that manages student profiles, attendance, marks, and AI-based academic performance analysis.
+Improved the Multi-Agent AI Research Assistant by adding testing, logging, environment configuration, Docker containerization, and deployment preparation.
 
-## Learning Objectives
-- Agile methodology
-- Git collaboration
-- Architecture design
-- Team roles and responsibilities
-- Sprint planning and task prioritization
+## Tasks Completed
+- Created unit tests and API tests.
+- Tested API endpoints and application functionality.
+- Implemented logging using Python logging.
+- Added console and file logging.
+- Created `.env` and `.env.example` for configuration.
+- Updated `.gitignore` to exclude sensitive and unnecessary files.
+- Created Dockerfile and `.dockerignore`.
+- Built and ran the application inside Docker.
+- Configured communication between the Docker container and the Day 17 RAG API.
+- Tested the application through Swagger UI.
 
-## Project Deliverables
-1. Sprint Planning Document
-2. Task Priority Table
-3. Project Timeline
+## Testing Results
+- Successfully executed 6 tests.
+- 3 unit tests passed.
+- 3 API tests passed.
+- Verified Docker deployment.
+- Verified API functionality inside the container.
 
-## Development Approach
-The project follows Agile methodology with five sprints over an estimated period of ten weeks.
+## Technologies Used
+- Python
+- FastAPI
+- Pytest
+- Logging
+- Docker
+- Environment Variables
+- LangGraph
+- REST API
 
-## Proposed Technology Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python and FastAPI
-- Database: SQLite
-- AI Module: Python
+## Key Learning Outcomes
+- Learned unit testing and API testing.
+- Understood application logging.
+- Learned environment variable management.
+- Gained practical experience with Docker.
+- Understood container networking.
+- Learned deployment preparation and production-readiness practices.
 
-## Project Structure
-```text
-Day_27/
-├── docs/
-│   ├── Sprint_Planning_Document.md
-│   ├── Task_Priority_Table.md
-│   └── Project_Timeline.md
-└── README.md
-```
+## Deliverables
+- Tests folder
+- Logging configuration
+- `.env.example`
+- Dockerfile
+- `.dockerignore`
+- `.gitignore`
+- Deployment checklist
+- Production Readiness Report
 
-## Conclusion
-This planning exercise demonstrates how an AI-based software project can be organized using Agile sprints, task prioritization, architecture design, and Git collaboration.
-:::
+## Limitations
+Authentication, rate limiting, monitoring, alerting, log rotation, and additional production security measures remain future improvements.
 
 # Day 25 – AI Industry Research and LLM Provider Comparison
 
@@ -1128,3 +1140,171 @@ A Responsible AI assignment built around a real incident: *Mata v. Avianca* (202
 
 ## Technologies
 Web research, case-study analysis, policy writing, Microsoft Word.
+# Day 27 – Agile Project Planning
+
+## Project Name
+Student Management System with AI Features
+
+## Project Overview
+This project focuses on planning a web-based Student Management System that manages student profiles, attendance, marks, and AI-based academic performance analysis.
+
+## Learning Objectives
+- Agile methodology
+- Git collaboration
+- Architecture design
+- Team roles and responsibilities
+- Sprint planning and task prioritization
+
+## Project Deliverables
+1. Sprint Planning Document
+2. Task Priority Table
+3. Project Timeline
+
+## Development Approach
+The project follows Agile methodology with five sprints over an estimated period of ten weeks.
+
+## Proposed Technology Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python and FastAPI
+- Database: SQLite
+- AI Module: Python
+
+## Project Structure
+```text
+Day_27/
+├── docs/
+│   ├── Sprint_Planning_Document.md
+│   ├── Task_Priority_Table.md
+│   └── Project_Timeline.md
+└── README.md
+```
+
+## Conclusion
+This planning exercise demonstrates how an AI-based software project can be organized using Agile sprints, task prioritization, architecture design, and Git collaboration.
+:::
+# Day 28 – Student Management System API Development
+
+## Project Overview
+Developed a Student Management System API using FastAPI and SQLite to manage student information and perform CRUD operations.
+
+## Tasks Completed
+- Created a backend API using FastAPI.
+- Implemented student management functionality.
+- Added CRUD operations for student records.
+- Integrated SQLite database.
+- Created database operations and application structure.
+- Added sample/demo student data.
+- Created API testing functionality.
+- Organized project documentation.
+
+## Technologies Used
+- Python
+- FastAPI
+- SQLite
+- REST API
+- Pydantic
+- Pytest
+
+## Key Learning Outcomes
+- Learned API development using FastAPI.
+- Practiced CRUD operations.
+- Understood database integration.
+- Improved project structuring.
+- Practiced API testing and documentation.
+
+## Deliverables
+- Student Management System API
+- Database integration
+- CRUD functionality
+- Demo seed data
+- Tests
+- Documentation
+
+## Status
+Project development and documentation completed.
+
+# Day 29 – Project Polish, Documentation & Presentation Preparation
+
+## Objective
+Polish the project, improve documentation, review architecture, and prepare for technical interviews and project demonstrations.
+
+## Tasks Completed
+- Reviewed the Multi-Agent AI Research Assistant project.
+- Prepared technical interview questions and answers.
+- Created presentation notes.
+- Created a demo practice checklist.
+- Reviewed project architecture and workflow.
+- Updated project README documentation.
+- Prepared a plan for presenting the project to mentors or a technical panel.
+
+## Deliverables
+- Interview Questions & Answers
+- Presentation Notes
+- Demo Practice Checklist
+- Updated README
+- Architecture Review
+
+## Technologies & Skills
+- Python
+- FastAPI
+- LangGraph
+- Multi-Agent Systems
+- RAG
+- Docker
+- Technical Documentation
+- Presentation Skills
+
+## Key Learning Outcomes
+- Improved technical explanation skills.
+- Practiced explaining project architecture and workflow.
+- Prepared for technical discussions and interviews.
+- Learned how to present AI projects professionally.
+
+## Status
+Completed documentation and presentation preparation.
+# Day 30 – Internship Reflection & Career Preparation
+
+## Objective
+Reflect on the internship journey, update professional profiles, prepare a career development plan, and prepare the final internship presentation.
+
+## Tasks Completed
+- Prepared Internship Reflection Report.
+- Updated resume with internship experience and projects.
+- Updated LinkedIn headline, About section, and internship experience.
+- Created a 90-Day Personal Learning Roadmap.
+- Prepared final internship presentation content.
+- Reviewed technical projects, skills, challenges, achievements, and lessons learned.
+- Prepared for final project presentation and technical discussion.
+
+## Deliverables
+- Internship Reflection Report
+- Updated Resume
+- Updated LinkedIn Profile
+- Personal Learning Roadmap (90 Days)
+- Final Presentation Notes/Script
+
+## Key Learning Outcomes
+- Reflected on technical and professional growth.
+- Improved resume and LinkedIn profile.
+- Developed a structured career learning plan.
+- Improved presentation and communication skills.
+- Identified future learning goals in AI/ML, Generative AI, RAG, AI Agents, and application development.
+
+## Skills Developed
+- Technical Communication
+- Presentation Skills
+- Resume Building
+- LinkedIn Profile Optimization
+- Career Planning
+- Self-Assessment
+- Professional Development
+
+## Status
+Documentation and preparation completed.
+
+## Pending Activities
+- Final PowerPoint slides
+- Presentation practice
+- Final presentation to mentor/team
+
+
